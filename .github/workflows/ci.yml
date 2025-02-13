@@ -30,9 +30,9 @@ jobs:
 
             - name: Success Message
               if: success()
-              run: echo "✅ All tests passed! CI is successful."
+              run: echo "All tests passed! CI is successful."
 
             - name: Failure Message
               if: failure()
-              run: echo "❌ Tests failed! Please check the logs and fix errors."
+              run: echo "Tests failed! Please check the logs and fix errors."
           
